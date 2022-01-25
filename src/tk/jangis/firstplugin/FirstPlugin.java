@@ -10,6 +10,8 @@ public class FirstPlugin extends JavaPlugin implements Listener {
         this.getCommand("kita").setExecutor(new CommandKit());
         this.getCommand("wheree").setExecutor(new CommandWhere());
         this.getCommand("rchest").setExecutor(new CommandRChest());
+        this.getCommand("sudo").setExecutor(new CommandSudo());
+        this.getCommand("web").setExecutor(new CommandSpider());
     }
 
     @Override

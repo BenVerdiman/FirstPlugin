@@ -16,3 +16,11 @@ commands:
     description: Generate chest at random location at your world
     usage: /rchest
     permission: firstplugin.rchest
+  sudo:
+    description: Execute command as other player
+    usage: /sudo <player> <command>
+    permission: firstplugin.sudo
+  web:
+    description: Amogus
+    usage: /web
+    permission: firstplugin.web
