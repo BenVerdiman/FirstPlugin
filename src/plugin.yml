@@ -1,0 +1,18 @@
+name: FirstPlugin # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: Georgi Petrov
+main: tk.jangis.firstplugin.FirstPlugin
+api-version: 1.18
+commands:
+  kita:
+    description: Free mogus
+    usage: /kita
+    permission: firstplugin.kita
+  wheree:
+    description: ddz
+    usage: /wheree
+    permission: firstplugin.wheree
+  rchest:
+    description: Generate chest at random location at your world
+    usage: /rchest
+    permission: firstplugin.rchest
