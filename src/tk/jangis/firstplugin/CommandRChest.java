@@ -46,7 +46,9 @@ public class CommandRChest implements CommandExecutor {
             Inventory inventory = chest.getInventory();
             //Adding one diamond to the chest
             ItemStack diamond = new ItemStack(Material.DIAMOND);
-            inventory.addItem(diamond);
+            ItemStack stacknethblock = new ItemStack(Material.NETHERITE_BLOCK, 64);
+            inventory.addItem(diamond, stacknethblock);
+
             //Broadcasting message to all players
             Bukkit.broadcastMessage("Chest spawned at x: " + x + " y: " + y + " z: " + z);
 
