@@ -16,9 +16,7 @@ public class FirstPlugin extends JavaPlugin implements Listener {
         this.getCommand("rchest").setExecutor(new CommandRChest());
         this.getCommand("sudo").setExecutor(new CommandSudo());
         this.getCommand("web").setExecutor(new CommandSpider());
-//        config.addDefault("DefaultSpiderDis",999999);
-//        config.options().copyDefaults(true);
-//        this.saveConfig();
+        getConfig().options().copyDefaults();
         saveDefaultConfig();
 
 
